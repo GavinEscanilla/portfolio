@@ -1,3 +1,17 @@
+
+body{
+ display:block;
+ padding-top: 80px;
+}
 h1{
     color: pink;
+    text-align: center
+}
+#navbar{
+    background-color: red;
+    position:fixed;
+    width: 100vw;
+    padding: 10px 0;
+    top:0;
+    left:0;
 }

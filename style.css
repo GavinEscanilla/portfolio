@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: pink;
+}
+#navbar{
+    background-color: blueviolet;
+     height: 10vh;
+     width: 100%;
+     position: fixed;
+     top:0;
+     z-index: 9999;
+}
+ol{
+    display: flex;
+    height: 99%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#content{
+    z-index: 0;
+}
+#about-me{
+    display: block;
+    background-color: brown;
+    height: 100vh;
+    width: 100%;
+}

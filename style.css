@@ -58,10 +58,11 @@ li a{
     background-color: purple;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin:0;
 }
 #project-title{
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 20vh;
 }
 #project-container{
     display: flex;
@@ -82,6 +83,11 @@ li a{
 }
 .fa-arrow-left{
     font-size: 70px;
+}
+#project-link{
+    border: 1px solid red;
+    height: 400px;
+    width: 600px;
 }
 .fa-arrow-right{
     font-size: 70px;

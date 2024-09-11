@@ -86,8 +86,12 @@ li a{
 }
 #project-link{
     border: 1px solid red;
-    height: 400px;
+    height: 100px;
     width: 600px;
+}
+#project-preview{
+    height: fit-content;
+    width: fit-content;
 }
 .fa-arrow-right{
     font-size: 70px;
